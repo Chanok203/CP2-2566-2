@@ -1,4 +1,4 @@
-package from_c_to_java;
+
 import java.util.Scanner;
 
 public class OperSelect {
@@ -24,6 +24,7 @@ public class OperSelect {
                 System.out.println(x % y);
             }
         }
+        sc.close();
     }
 
 }

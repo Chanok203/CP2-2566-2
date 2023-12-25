@@ -1,4 +1,4 @@
-package from_c_to_java;
+
 import java.util.Scanner;
 
 public class NoDivideByZero {
@@ -15,5 +15,6 @@ public class NoDivideByZero {
             System.out.printf("%.6f", ans);
             System.out.println(); // new line
         }
+        sc.close();
     }
 }
