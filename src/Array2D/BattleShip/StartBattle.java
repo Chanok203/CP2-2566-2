@@ -1,4 +1,4 @@
-package Array2D;
+package Array2D.BattleShip;
 
 import java.util.Scanner;
 
@@ -81,6 +81,7 @@ public class StartBattle {
         System.out.println(dupShot);
         System.out.println(dupMiss);
         System.out.println(out);
+        sc.close();
     }
 }
 /*

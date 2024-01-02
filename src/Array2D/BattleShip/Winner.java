@@ -1,4 +1,4 @@
-package Array2D;
+package Array2D.BattleShip;
 
 import java.util.Scanner;
 
@@ -99,6 +99,7 @@ public class Winner {
         } else {
             System.out.println("attacker " + (lastRound + 1));
         }
+        sc.close();
     }
 }
 /*
