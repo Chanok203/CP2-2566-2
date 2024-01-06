@@ -127,7 +127,7 @@ public class Theater2 {
         if (luxury1 == 1)
             luxury = true;
         Theater t = new Theater(threeD, luxury, numSeats);
-        String dummy = scan.nextLine(); // throw away new line character
+        scan.nextLine(); // throw away new line character
         String title = scan.nextLine();
         t.setTitle(title);
         int basePrice = scan.nextInt();

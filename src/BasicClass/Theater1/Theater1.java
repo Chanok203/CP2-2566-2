@@ -87,7 +87,7 @@ public class Theater1 {
         if (luxury1 == 1)
             luxury = true;
         Theater t = new Theater(threeD, luxury, numSeats);
-        String dummy = scan.nextLine();// throw away a new line character
+        scan.nextLine();// throw away a new line character
         String title = scan.nextLine();
         if (title.compareTo("-1") == 0)
             t.setTitle(null);
