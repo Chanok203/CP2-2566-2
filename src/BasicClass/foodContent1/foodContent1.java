@@ -1,4 +1,4 @@
-package foodContent1;
+package BasicClass.foodContent1;
 
 import java.util.Scanner;
 
