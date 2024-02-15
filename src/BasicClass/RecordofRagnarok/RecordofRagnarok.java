@@ -73,10 +73,9 @@ public class RecordofRagnarok {
     }
 
     public static void main(String[] args) {
-        // TODO code application logic here
         Scanner sc = new Scanner(System.in);
         int round = sc.nextInt();
-        String t = sc.nextLine();
+        sc.nextLine();
         HumanCharacters[] human = new HumanCharacters[round];
         GodCharacters[] god = new GodCharacters[round];
         for (int i = 0; i < round; i++) {
@@ -119,6 +118,7 @@ public class RecordofRagnarok {
                 break;
             }
         }
+        sc.close();
     }
 
 }
